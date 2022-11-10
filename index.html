@@ -27,21 +27,26 @@
             <li class="list-group-item container">
               <div class="row">
                 <div class=" background-biglietto"></div>
-                <div class ="col-3"><p><b>Tuo Nome</b></p>
+                <div class="col-3">
+                  <p><b>Tuo Nome</b></p>
                   <input id="etaPasseggero" type="text" placeholder="Tua età">
-                  <p id="costoBiglietto"></p></div>
-                <div class ="col-3"><p><b>Tuo Cognome</b></p>
-                  <input id = "chilometriBiglietto" type="text" placeholder="Chilometri da percorrere"></div>
                 </div>
+                <div class="col-3">
+                  <p><b>Tuo Cognome</b></p>
+                  <input id="chilometriBiglietto" type="text" placeholder="Chilometri da percorrere">
+                </div>
+              </div>
 
-                <div class="col-6"><button type="button" id="bottoneCalcolo" class="btn btn-success">Calcola il mio biglietto</button></div>
-              </div>              
+              <div class="col-6"><button type="button" id="bottoneCalcolo" class="btn btn-danger">Calcola il mio
+                  biglietto</button></div>
+
             </li>
-            <li class="bg-danger list-group-item py-1"></li>
+            <li id="ticket-foot" class="bg-danger list-group-item py-1">
+              <p id="costoBiglietto" class="text-decoration-underline fw-bold">"Il Prezzo del tuo biglietto è di: " </p>
+            </li>
           </ul>
         </div>
       </div>
-    </div>
   </main>
 
   <footer></footer>
