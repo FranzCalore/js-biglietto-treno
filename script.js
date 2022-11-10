@@ -1,6 +1,5 @@
 let chilometriDaPercorrere;
 let etaPasseggero;
-let sconto;
 let prezzoBiglietto;
 
 let bottone = document.getElementById("bottoneCalcolo")
@@ -34,6 +33,7 @@ bottone.addEventListener("click", function () {
     prezzoBiglietto = prezzoBiglietto.toFixed(2);
     prezzoBiglietto = prezzoBiglietto+"€"
     console.log(prezzoBiglietto);
+    console.log("Buon Viaggio!")
 
     
     document.getElementById("costoBiglietto").innerHTML="Il prezzo del tuo biglietto è: " + prezzoBiglietto;
