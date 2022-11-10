@@ -1,6 +1,8 @@
 .background-biglietto {
     background-image: url("./img/Train_Austria.svg.png");
-    opacity: 0.1;
-    background-position: center;
+    background-position: left;
     background-size: cover;
+    width: 200px;
+    opacity: 0.2;
+    height: 200px;
 }
